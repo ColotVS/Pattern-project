@@ -8,7 +8,7 @@ public class pattern_project {
     //В Java существует множество паттернов проектирования, которые можно разделить на три основных типа:
     //Порождающие паттерны: Эти паттерны связаны с процессом создания объектов и обеспечивают
     //гибкость и повторное использование кода.
-    //Примеры таких паттернов: Singleton, Factory Method, Abstract Factory, Builder, Prototype.
+    //Примеры таких паттернов: Singleton.Singleton, Factory Method, Abstract Factory, Builder, Prototype.
 
     //Структурные паттерны: Они определяют способы композиции классов и объектов для создания новых структур.
     //Примеры структурных паттернов: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
