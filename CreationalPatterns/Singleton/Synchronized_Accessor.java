@@ -1,4 +1,4 @@
-package Singleton;
+package CreationalPatterns.Singleton;
 
 public class Synchronized_Accessor {
     private static Synchronized_Accessor INSTANCE;
