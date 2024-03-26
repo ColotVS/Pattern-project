@@ -1,4 +1,4 @@
-package CreationalPatterns.Singleton;
+package Singleton;
 
 public class Class_Holder_Singleton {
     private Class_Holder_Singleton() {
@@ -19,7 +19,7 @@ public class Class_Holder_Singleton {
     //Высокая производительность в многопоточной среде.
 
     //Минусы:
-    //Для корректной работы необходима гарантия, что объект класса CreationalPatterns.Singleton инициализируется без ошибок.
+    //Для корректной работы необходима гарантия, что объект класса Singleton.Singleton.Singleton.Singleton инициализируется без ошибок.
     //Иначе первый вызов метода getInstance закончится ошибкой ExceptionInInitializerError,
     //а все последующие NoClassDefFoundError.
 

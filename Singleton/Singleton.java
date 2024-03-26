@@ -1,7 +1,7 @@
-package CreationalPatterns.Singleton;
+package Singleton;
 
 public class Singleton {
-    //Шаблон CreationalPatterns.Singleton.CreationalPatterns.Singleton, который еще называют “одиночка”.
+    //Шаблон Singleton.Singleton.Singleton.Singleton, который еще называют “одиночка”.
 
     //Синглтон — это один из самых простых шаблонов (паттернов) проектирования, который применяется к классу.
     //Иногда говорят: “этот класс — синглтон”, подразумевая,
@@ -58,7 +58,7 @@ public class Singleton {
     //Теперь мы готовы рассмотреть различные варианты реализации с перечислением плюсов и минусов:
 
 
-    //Плюсы и минусы паттерна CreationalPatterns.Singleton
+    //Плюсы и минусы паттерна Singleton.Singleton.Singleton.Singleton
     //В целом синглтон делает именно то, что от него ждут:
     //Дает гарантию, что у класса будет всего один экземпляр класса.
 

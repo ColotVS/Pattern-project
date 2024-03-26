@@ -1,4 +1,4 @@
-package CreationalPatterns.Singleton;
+package Singleton;
 
 public class Double_Checked_Locking {
     private static Double_Checked_Locking INSTANCE;

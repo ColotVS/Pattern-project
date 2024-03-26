@@ -1,4 +1,4 @@
-package CreationalPatterns.Singleton;
+package Singleton;
 
 public class Simple_Solution {
     private static final Simple_Solution INSTANCE = new Simple_Solution();

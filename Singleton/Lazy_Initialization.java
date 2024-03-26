@@ -1,4 +1,4 @@
-package CreationalPatterns.Singleton;
+package Singleton;
 
 public class Lazy_Initialization {
     private static Lazy_Initialization INSTANCE;
