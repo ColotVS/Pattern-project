@@ -1,6 +1,6 @@
 package Factory;
 
-public class Factory {
+public class Factory { //Creational patterns, Порождающий паттерн
     //Что такое Фабрика?
     //Шаблон проектирования Фабрика позволяет управлять созданием объектов.
 
