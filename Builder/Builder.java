@@ -1,6 +1,6 @@
 package Builder;
 
-public class Builder {
+public class Builder { //Creational patterns, Порождающий паттерн
     //Паттерн проектирования Builder в Java
 
     //Зачем нам нужен паттерн проектирования Builder?
