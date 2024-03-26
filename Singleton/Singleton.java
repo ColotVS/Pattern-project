@@ -1,7 +1,7 @@
 package Singleton;
 
-public class Singleton {
-    //Шаблон Singleton.Singleton.Singleton.Singleton, который еще называют “одиночка”.
+public class Singleton { //Creational patterns, Порождающий паттерн
+    //Шаблон Singleton, который еще называют “одиночка”.
 
     //Синглтон — это один из самых простых шаблонов (паттернов) проектирования, который применяется к классу.
     //Иногда говорят: “этот класс — синглтон”, подразумевая,
