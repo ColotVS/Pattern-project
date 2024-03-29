@@ -69,5 +69,68 @@ public class Composite {    //structural pattern, Структурный пат�
     //}
 
     //Оба класса реализуют метод printDepartmentName() из базового компонента, где они печатают имена классов для каждого из них.
+    //Кроме того, поскольку они являются конечными классами, они не содержат других объектов Department.
+    //Далее давайте также рассмотрим составной класс.
 
+
+    //3.3. Составной элемент
+    //В качестве составного класса давайте создадим класс HeadDepartment:
+
+    //public class HeadDepartment implements Department {
+    //    private Integer id;
+    //    private String name;
+    //
+    //    private List<Department> childDepartments;
+    //
+    //    public HeadDepartment(Integer id, String name) {
+    //        this.id = id;
+    //        this.name = name;
+    //        this.childDepartments = new ArrayList<>();
+    //    }
+    //
+    //    public void printDepartmentName() {
+    //        childDepartments.forEach(Department::printDepartmentName);
+    //    }
+    //
+    //    public void addDepartment(Department department) {
+    //        childDepartments.add(department);
+    //    }
+    //
+    //    public void removeDepartment(Department department) {
+    //        childDepartments.remove(department);
+    //    }
+    //}
+    //Копировать
+    //Это составной класс, поскольку он содержит коллекцию компонентов отдела,
+    //а также методы для добавления и удаления элементов из списка.
+
+    //Составной метод printDepartmentName() реализуется путем перебора списка конечных элементов и
+    //вызова соответствующего метода для каждого из них.
+
+    //4. Тестирование
+    //В целях тестирования давайте взглянем на класс CompositeDemo:
+    //public class CompositeDemo {
+    //    public static void main(String args[]) {
+    //        Department salesDepartment = new SalesDepartment(
+    //          1, "Sales department");
+    //        Department financialDepartment = new FinancialDepartment(
+    //          2, "Financial department");
+    //
+    //        HeadDepartment headDepartment = new HeadDepartment(
+    //          3, "Head department");
+    //
+    //        headDepartment.addDepartment(salesDepartment);
+    //        headDepartment.addDepartment(financialDepartment);
+    //
+    //        headDepartment.printDepartmentName();
+    //    }
+    //}
+    //Копировать
+    //Сначала мы создаем два экземпляра для финансового отдела и отдела продаж.
+    //После этого мы создаем экземпляр головного отдела и добавляем к нему ранее созданные экземпляры.
+
+    //Наконец, мы можем протестировать метод композиции printDepartmentName().
+    //Как мы и ожидали, выходные данные содержат имена классов каждого конечного компонента:
+    //SalesDepartment
+    //FinancialDepartment
 }
